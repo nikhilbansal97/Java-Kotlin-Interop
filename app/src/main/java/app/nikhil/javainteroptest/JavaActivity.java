@@ -15,18 +15,13 @@ public class JavaActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     // Create an instance of KotlinPrinter
-    KotlinPrinter kotlinPrinter = new KotlinPrinter();
 
     // Get the name of printer
-    String printerName = kotlinPrinter.name;
 
     // Print a sample file
-    kotlinPrinter.printFile("");
 
     // Get the configuration of Printer
-    KotlinPrinter.getConfiguration();
 
     // Establish a connection to a WIFI
-    kotlinPrinter.establishConnectionToWifi(null);
   }
 }

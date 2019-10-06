@@ -8,7 +8,6 @@ class KotlinPrinter {
   /*
   * Value denoting the name of the printer
   */
-  @JvmField
   val name: String = "MyPrinter"
 
   /*
@@ -34,7 +33,6 @@ class KotlinPrinter {
     /*
     * Return the configuration of Printer in String format
     */
-    @JvmStatic
     fun getConfiguration(): String = "Sample Configuration"
   }
 }
