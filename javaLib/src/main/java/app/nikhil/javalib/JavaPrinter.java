@@ -32,9 +32,4 @@ public class JavaPrinter {
 
   public void is() {
   }
-
-  public boolean isConnectionEstablished(String wifiName) {
-    // Logic to check the connection status
-    return true;
-  }
 }
